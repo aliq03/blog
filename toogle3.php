@@ -77,7 +77,7 @@ $(function() {
 
     }
 
-    if (colEl - loadedEl === 0) $(this).hide();
+    if (colEl - loadedEl === 2) $(this).hide();
 
   }
 
