@@ -58,7 +58,7 @@ $(function() {
     $('table#blok3yorum').eq(i).css('display', 'block');
 
   }
-  while (var colEl = 2; colEl == start; i++) {
+if (var colEl = 2; colEl == start; i++) {
 
     $('.lm-blok3yorum').eq(i).css('display', 'none');
 
