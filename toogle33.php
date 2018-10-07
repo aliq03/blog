@@ -45,7 +45,7 @@ $(function() {
 
   var colEl = $('table#blok3yorum').length,
 
-    loadedEl = 0,
+    loadedEl = 2,
 
     start = 2,
 
@@ -53,7 +53,7 @@ $(function() {
 
 
 
-  for (var i = 2; i == start; i++) {
+  for (var i = 2; i < start; i++) {
 
     $('table#blok3yorum').eq(i).css('display', 'block');
 
