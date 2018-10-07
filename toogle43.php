@@ -45,7 +45,7 @@ $(function() {
 
   var colEl = $('table#blok3yorum').length,
 
-    loadedEl = 2,
+    loadedEl = 0,
 
     start = 2,
 
@@ -53,12 +53,16 @@ $(function() {
 
 
 
-  for (var i = 2; i < start; i++) {
+  for (var i = 0; i < start; i++) {
 
     $('table#blok3yorum').eq(i).css('display', 'block');
 
   }
+  for (var colEl = 2; colEl == start; i++) {
 
+    $('.lm-blok3yorum').eq(i).css('display', 'none');
+
+  }
 
 
   $('.lm-blok3yorum').on('click', loadMore);
