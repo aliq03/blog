@@ -53,7 +53,7 @@ $(function() {
 
 
 
-  for (var i = 0; i < start; i++) {
+  for (var i = 2; i < start; i++) {
 
     $('table#blok3yorum').eq(i).css('display', 'block');
 
